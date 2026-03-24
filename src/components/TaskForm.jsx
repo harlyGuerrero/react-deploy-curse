@@ -25,7 +25,7 @@ const TaskForm = () => {
                 className="bg-slate-300 p-3 w-full mb-2"
                 />
                 <textarea onChange={(e) => setDescription(e.target.value)}
-                placeholder="Ingrese la tarea"
+                placeholder="Ingrese la Descripción"
                 value={description} type="text"
                 className="bg-slate-300 p-3 w-full mb-2"
                 ></textarea>
